@@ -387,7 +387,7 @@ section .container {
 }
 section.about .img_about{
   border-radius:20px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0px 0px 30px 10px;
 }
 section.about a{
   padding:5px;
