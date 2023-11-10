@@ -11,12 +11,15 @@ body {
 }
 
 a {
-  color: rgb(46, 101, 156);;
+  color: rgb(46, 101, 156);
+  padding: 5px;
+  border-radius: 5px;
   text-decoration: none;
 } 
 
-a:hover {
-  color: rgb(252, 188, 70);
+div.info-box a:hover {
+  color: #fff;
+  background-color: rgb(24, 53, 82);
   text-decoration: none;
 }
 
@@ -667,7 +670,7 @@ section.about a:hover{
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgb(24, 53, 82);;
+  background: rgb(24, 53, 82);
 }
 
 @keyframes animate-loading {
@@ -703,10 +706,13 @@ section.about a:hover{
 }
 
 .credits a {
-  color: rgb(46, 101, 156);;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(46, 101, 156);
   transition: 0.3s;
 }
 
 .credits a:hover {
-  color: rgb(252, 188, 70);
+  color: #fff;
+  background-color: rgb(24, 53, 82);
 }
